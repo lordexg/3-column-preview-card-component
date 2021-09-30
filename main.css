@@ -130,9 +130,35 @@ button:hover{
 footer{
     position: absolute;
     bottom: 0px;
-    display: flex;
-    justify-content: center;
+    left: 50%;
+    transform: translate(-50%);
 }
+
+footer p{
+    font-size: 20px;
+}
+
+footer p span{
+    animation-name: myname;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    color:white;
+}
+
+@keyframes myname {
+    0%{
+      background-color:var(--Bright-orange);  
+    }
+    50%{
+        background-color: var(--Dark-cyan);
+    }
+    100%{
+        background-color:var(--Very-dark-cyan);
+    }
+} 
+
+
 /* Start Mobile View */
 @media (max-width:375px){
     .parent .container{
