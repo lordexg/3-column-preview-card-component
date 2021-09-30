@@ -21,7 +21,7 @@ body{
 h2{
     text-transform: uppercase;
     margin: 0px;
-    padding: 0px;
+    padding-bottom: 20px;
     font-family: var(--big-shoulders-font);
 }
 
