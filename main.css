@@ -171,11 +171,13 @@ footer p span{
     .card1{
         border-top-left-radius: 5px;
         border-top-right-radius: 5px;
+        border-bottom-left-radius: 0px;
     }
 
     .card3{
         border-bottom-left-radius: 5px;
         border-bottom-right-radius: 5px;
+        border-top-right-radius: 0px;
     }
 /* footer */
     footer{
